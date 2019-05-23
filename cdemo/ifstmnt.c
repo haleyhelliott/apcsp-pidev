@@ -18,27 +18,27 @@ int main()
         {
                 printf("a is equal to b\n");
         }
-        else if (a != b)
+        if (a != b)
         {
                 printf("a is not equal to b\n");
         }
-	else if (a > b)
+	if (a > b)
 	{
 		printf("a is greater than b\n");
 	}
-	else if (a >= b)
+	if (a >= b)
 	{
 		printf("a is greater than or equal to b\n");
 	}
-	else if (a == 0 && b == 0)
+	if (a == 0 && b == 0)
 	{
 		printf("a is equal to 0 AND b is equal to 0\n");
 	}
-	else if (a == 0 || b == 0)
+	if (a == 0 || b == 0)
 	{
 		printf("a is equal to 0 OR b is equal to 0\n");
 	}
-	else if (!a == 0)
+	if (!a == 0)
 	{
 		printf("a is NOT equal to 0\n");
 	}
