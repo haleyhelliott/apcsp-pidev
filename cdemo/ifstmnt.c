@@ -4,6 +4,9 @@ int main()
 {
 	int a = 0;
 
+printf("a = 0\n");
+printf("b = -2\n");
+
 	if (a==0)
 	{
 		printf("a is equal to 0\n");
@@ -13,7 +16,8 @@ int main()
 		printf("a is not equal to 0\n");
 	}
 
-	int b = 2;
+	int b = -2;
+
         if (a==b)
         {
                 printf("a is equal to b\n");
