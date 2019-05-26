@@ -13,11 +13,11 @@ void main()
     addArray(arr, 100, 1);
 }
 
-void addArray(int* arr, int i, int s)
+void addArray(int* arr, int s, int n)
 {
-    for (int num = 0; num < i; num++)
+    for (int num = 0; num < s; num++)
     {
-        arr[num] = arr[num] + s;
+        arr[num] = arr[num] + n;
         printf("%d\n", arr[num]);
     }
 }
