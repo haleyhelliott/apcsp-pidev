@@ -24,8 +24,8 @@
 	printf("What is the upper value of your range?\n");
 	while(1)
 	{
-		fgets(input, 256, stdin);
-		if (sscanf(input, "%f", &range2) == 1) break;
+		fgets(input2, 256, stdin);
+		if (sscanf(input2, "%f", &range2) == 1) break;
 		printf("Not a valid value - try again\n");
 	}
 	float a;
